@@ -1,0 +1,114 @@
+.input-area {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.title{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+.form-item {
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.form-item > label{
+    display: block;
+    font-weight: bold;
+}
+.form-item > input {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+.limite {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.limite > select{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+}
+
+.submit {
+    width: 200px;
+    height: 40px;
+}
+.submit-wrap {
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* output */
+.output-area {
+    max-width: 900px;
+    margin: 30px auto 0;
+}
+.task-list {
+    width: 100%;
+}
+.task-list .task-head_task {
+    width: 30%;
+}
+
+.task-list .task-head_memo {
+    width: 50%;
+}
+
+.task-list .task-head_limite {
+    width: 20%;
+}
+.task-head{
+    background-color: grey;
+    color: white;
+}
+.task-body_task{ 
+    text-align: center;
+}
+.task-body_memo {
+
+}
+.task-body_limite {
+    text-align: center;
+}
+.task-body td {
+    background-color: rgb(243, 243, 243);
+}
+.task-body_delete {
+    background-color: rgb(97, 0, 0) !important;
+    color: #fff;
+    text-align: center;
+}
+
+.add{
+    background-color: rgb(2, 247, 2);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.error{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.rem{
+    background-color: rgb(2, 10, 247);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="TO DO LIST" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="normaliz.css"></link>
+</head>
+<body id="body">
+    <div class="input-area">
+        <h1 class="title">TO DO LIST</h1>
+        <form class="form">
+            <div class="form-wrap">
+                <div class="form-item">
+                    <label for="task">TASK</label></label></label>
+                    <input type="text" id="task"></input>
+                </div>
+                <div class="form-item">
+                    <label for="memo">MEMO</label>
+                    <input type="text" id="memo"></input>
+                </div>
+                <div class="form-item">
+                    <label>LIMITE</label>
+                    <div class="limite">
+                        <select id="year" name="year"></select>
+                        <select id="month" name="month"></select>
+                        <select id="date" name="date"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="submit-wrap">
+                <input type="submit" class="submit" value="submit"></input>
+            </div>
+            
+        </form>
+    </div>
+    <div class="output-area">
+        <table class="task-list">
+            <thead class="task-head">
+                <tr>
+                    <th class="task-head_task">TASK</th>
+                    <th class="task-head_memo">MEMO</th>
+                    <th class="task-head-limited">LIMITE</th>
+                </tr>
+            </thead>
+            <tbody class="task-body">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
